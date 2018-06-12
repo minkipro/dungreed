@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{ea9949f7-0df2-4926-bec2-a63f832d0455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Math">
+      <UniqueIdentifier>{97449549-dfba-4b03-a36b-a4143947172d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Point">
+      <UniqueIdentifier>{5f9c19be-98c8-4091-b68f-350ad51d8166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Size">
+      <UniqueIdentifier>{308f0ac2-e6db-4bfd-8dce-81fefda460da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{17b18f7b-59ea-467c-9c3d-a402582a260a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Device">
+      <UniqueIdentifier>{c7aa11d0-42cc-4893-89ba-a9be4853d06b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Mouse">
+      <UniqueIdentifier>{8e3f718e-cc7f-45a6-960d-3cd18ed49ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Window">
+      <UniqueIdentifier>{17534d00-bac8-43a6-8199-325150c8805c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Keyboard">
+      <UniqueIdentifier>{b2360bee-bc4c-47c9-beac-f545d53b1d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMain">
+      <UniqueIdentifier>{0085b627-649d-4c72-80fd-184cd722000c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Size\Rect">
+      <UniqueIdentifier>{41529e7a-ba27-4e9d-968a-7a90a5ac0ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Vertex">
+      <UniqueIdentifier>{bfbedb86-5b72-482a-9151-f4ff708ce879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Vertex\TriVertex">
+      <UniqueIdentifier>{8bab3115-1413-4d34-a5f9-3638aa7feefd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\TextureManager">
+      <UniqueIdentifier>{29b1cd2b-bc52-40e4-a8ec-0a0e174fd55b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Vertex\RectVertex">
+      <UniqueIdentifier>{53af7770-b07f-4aa0-99cf-6119bb292065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\VertexBuffer">
+      <UniqueIdentifier>{02457559-15b8-4e0c-b702-b8d40d38fe92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\LocationInfo">
+      <UniqueIdentifier>{aa3fc9c1-ab4f-4bf7-8adc-2df785e8b26c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\TextureManager\Renderer">
+      <UniqueIdentifier>{34b39865-1c86-457f-84e7-76a5136bbbb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Scene">
+      <UniqueIdentifier>{60101dac-7ce3-4e03-bbd5-101500d8a908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Timer">
+      <UniqueIdentifier>{577ce841-da5a-4697-bb5c-5e539d321ab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\TextureEditer">
+      <UniqueIdentifier>{42f890f1-704e-433a-a966-4b975a0b4b9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Button">
+      <UniqueIdentifier>{7910db94-343d-477c-bfc1-29026aadc64d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Sound">
+      <UniqueIdentifier>{cbeeb5ad-0c98-426a-ad07-cbf3d330f307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\DataBase">
+      <UniqueIdentifier>{c5f37c6f-8307-48a4-b7bb-996cd088e5ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\DataBase\XML">
+      <UniqueIdentifier>{27c19477-2c91-4429-a0b6-2c32d77aca70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Effecter">
+      <UniqueIdentifier>{6c842cbb-0fb5-4e8a-9613-0ecd0afe2aee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\TextureManager\Font">
+      <UniqueIdentifier>{54507650-1cab-4aa5-bab9-3ab0d661c0f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Shader">
+      <UniqueIdentifier>{8bbb692a-d7d9-4a14-be31-3df48aa292e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Shader\ColorShader">
+      <UniqueIdentifier>{750fb9d8-21e8-4e41-a160-38e848f75b78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMain\GameScene">
+      <UniqueIdentifier>{ef629042-b661-4349-89fb-025a2e82be37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Shader\BlurShader">
+      <UniqueIdentifier>{658585eb-a017-40cd-b7e9-bdf1c4db2ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Shader\LightShader">
+      <UniqueIdentifier>{ad5907da-9d5b-4838-9845-0338f179b8e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Shader\AlphaShader">
+      <UniqueIdentifier>{d0624171-3107-4f59-8449-f038ea31f303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Shader\MosaicShader">
+      <UniqueIdentifier>{1432bfe4-376f-4a41-b41e-d4020f4694f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMain\GameScene\Cat">
+      <UniqueIdentifier>{7257231f-6b6a-4dda-8c7d-c77062f0b199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMain\GameScene\Map">
+      <UniqueIdentifier>{4a1f514f-ac7c-40ab-8665-3421265ca63f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMain\GameScene\Map\Tile">
+      <UniqueIdentifier>{00c668d5-07d7-41e1-a3f3-e847c4ea79ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMain\GameScene\Map\Maze">
+      <UniqueIdentifier>{fd3bfc04-aa71-4e70-ac2f-e7c1d4b7a8b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMain\MapEditScene">
+      <UniqueIdentifier>{3d4c8118-2144-4b08-8acd-93a8ddab1d7f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Size.h">
+      <Filter>Core\Size</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Core\Size\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Core\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>System\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>System\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>System\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>System\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain.h">
+      <Filter>GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="D2Vertex.h">
+      <Filter>Core\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="TriVertex.h">
+      <Filter>Core\Vertex\TriVertex</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>System\VertexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>System\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="RectVertex.h">
+      <Filter>Core\Vertex\RectVertex</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderInfo.h">
+      <Filter>System\TextureManager\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="TEXTURE.h">
+      <Filter>System\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="LocationInfo.h">
+      <Filter>System\LocationInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMain.h">
+      <Filter>System\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>System\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>System\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>System\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureEditer.h">
+      <Filter>System\TextureEditer</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureEditerScene.h">
+      <Filter>System\TextureEditer</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>System\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>System\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Xml.h">
+      <Filter>System\DataBase\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Effecter.h">
+      <Filter>System\Effecter</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawLine.h">
+      <Filter>System\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>System\TextureManager\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>System\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorShader.h">
+      <Filter>System\Shader\ColorShader</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>System\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>GameMain\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="BlurShader.h">
+      <Filter>System\Shader\BlurShader</Filter>
+    </ClInclude>
+    <ClInclude Include="LightShader.h">
+      <Filter>System\Shader\LightShader</Filter>
+    </ClInclude>
+    <ClInclude Include="AlphaShader.h">
+      <Filter>System\Shader\AlphaShader</Filter>
+    </ClInclude>
+    <ClInclude Include="MosaicShader.h">
+      <Filter>System\Shader\MosaicShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Cat.h">
+      <Filter>GameMain\GameScene\Cat</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>GameMain\GameScene\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>GameMain\GameScene\Map\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Maze.h">
+      <Filter>GameMain\GameScene\Map\Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEditScene.h">
+      <Filter>GameMain\MapEditScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Size.cpp">
+      <Filter>Core\Size</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Core\Size\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Core\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>System\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>System\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>System\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>System\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain.cpp">
+      <Filter>GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="D2Vertex.cpp">
+      <Filter>Core\Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="TriVertex.cpp">
+      <Filter>Core\Vertex\TriVertex</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>System\VertexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>System\TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="RectVertex.cpp">
+      <Filter>Core\Vertex\RectVertex</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderInfo.cpp">
+      <Filter>System\TextureManager\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="LocationInfo.cpp">
+      <Filter>System\LocationInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>System\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>System\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>System\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureEditerScene.cpp">
+      <Filter>System\TextureEditer</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>System\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureEditer.cpp">
+      <Filter>System\TextureEditer</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>System\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Xml.cpp">
+      <Filter>System\DataBase\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Effecter.cpp">
+      <Filter>System\Effecter</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawLine.cpp">
+      <Filter>System\TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>System\TextureManager\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>System\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorShader.cpp">
+      <Filter>System\Shader\ColorShader</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>System\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>GameMain\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="BlurShader.cpp">
+      <Filter>System\Shader\BlurShader</Filter>
+    </ClCompile>
+    <ClCompile Include="LightShader.cpp">
+      <Filter>System\Shader\LightShader</Filter>
+    </ClCompile>
+    <ClCompile Include="AlphaShader.cpp">
+      <Filter>System\Shader\AlphaShader</Filter>
+    </ClCompile>
+    <ClCompile Include="MosaicShader.cpp">
+      <Filter>System\Shader\MosaicShader</Filter>
+    </ClCompile>
+    <ClCompile Include="Cat.cpp">
+      <Filter>GameMain\GameScene\Cat</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>GameMain\GameScene\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEditScene.cpp">
+      <Filter>GameMain\MapEditScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Image\cat.xml">
+      <Filter>리소스 파일</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="PixelColorShader.hlsl">
+      <Filter>System\Shader\ColorShader</Filter>
+    </FxCompile>
+    <FxCompile Include="BlurShader.hlsl">
+      <Filter>System\Shader\BlurShader</Filter>
+    </FxCompile>
+    <FxCompile Include="LightShader.hlsl">
+      <Filter>System\Shader\LightShader</Filter>
+    </FxCompile>
+    <FxCompile Include="AlphaShader.hlsl">
+      <Filter>System\Shader\AlphaShader</Filter>
+    </FxCompile>
+    <FxCompile Include="MosaicShader.hlsl">
+      <Filter>System\Shader\MosaicShader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

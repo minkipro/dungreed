@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs
+/DX_FrameWork/.vs/Direct2D/v15/ipch
+/DX_FrameWork/.vs/Direct2D/v15
+/DX_FrameWork/Debug/FrameWork.tlog
+/DX_FrameWork/Debug
