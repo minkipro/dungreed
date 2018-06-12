@@ -22,7 +22,7 @@ public:
 	RECT rc;
 
 	bool hi;
-	
+	bool hello;
 private:
 	RenderInfo * cat;
 	LocationInfo catInfo;
