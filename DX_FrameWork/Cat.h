@@ -20,6 +20,8 @@ public:
 	void CollisionCheck();
 
 	RECT rc;
+
+	bool hi;
 	
 private:
 	RenderInfo * cat;
